@@ -1,13 +1,14 @@
 # Write your code here.
 def line(name_array)
-  position=1
+
   empty_array=[]
   if name_array.size<1
     puts "The line is currently empty."
   else
-    name_array.each do |name|
-      empty_array.push()
-      position+=1
+    
+    name_array.each.with_index(1) do |name, id|
+      empty_array.push("#{id}. #{name}")
+  
     end
   end
 
