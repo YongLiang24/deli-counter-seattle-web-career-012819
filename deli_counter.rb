@@ -3,7 +3,7 @@ def line(name_array)
 
 
 
-  if name_array.length >= 1
+  if name_array.size > 0
     nuarray = []
     counter = 1
     array.each do |name|
