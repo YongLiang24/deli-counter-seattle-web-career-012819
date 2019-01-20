@@ -1,5 +1,8 @@
 # Write your code here.
 def line(name_array)
+
+
+
   if name_array.length >= 1
     nuarray = []
     counter = 1
